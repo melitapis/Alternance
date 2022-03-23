@@ -1,0 +1,89 @@
+/// neon btn //
+//red neon #F72119
+//blue neon #21ebff
+#neon-button-text{
+ width: 150px;
+  position: relative;
+  padding: 10px 30px;
+  margin: 0 15px;
+  color: #FC6D6D;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  // -webkit-box-reflect: bellow 1px linear-gradient(transparent ,#0003);
+}
+
+#neon-button-text:hover{
+   background:#FC6D6D;
+   color: white;
+   box-shadow: 0 0 50px #FC6D6D;
+   transition-delay: 0.5s;
+}
+
+#neon-button-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #FC6D6D;
+  border-left: 2px solid #FC6D6D;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+// #neon-button-text:nth-child(1){
+//   filter: hue-rotate(115deg);
+// }
+
+
+#neon-button-text:hover::before{
+  width: 100%;
+  height: 100%;
+  transition-delay: 0.5s;
+}
+
+#neon-button-text:after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #FC6D6D;
+  border-right: 2px solid #FC6D6D;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+#neon-button-text:hover::after{
+  width: 100%;
+  height: 100%;
+  transition-delay: 0.5s;
+}
+
+//me contacter
+
+.container-contact{
+color: white;
+align-items: center;
+margin: 100px;
+// border: 1px solid;
+// border-color: white;
+
+i{
+
+  display: list-item;
+  text-decoration: white;
+  margin: 15px;
+  color: white;
+  a{
+    color: white;
+    text-decoration: white;
+    font-style: normal;
+  }
+}
+
+}
