@@ -102,9 +102,13 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.0)
     minitest (5.15.0)
     msgpack (1.4.5)
     nio4r (2.5.8)
+    nokogiri (1.13.3)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     nokogiri (1.13.3-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.3-x86_64-linux)
@@ -147,6 +151,8 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0)
     rake (13.0.6)
+    raygun-apm (1.1.12-universal-darwin)
+    raygun-apm (1.1.12-x86_64-linux)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -219,6 +225,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.6)
+  raygun-apm
   sass-rails (>= 6)
   selenium-webdriver
   spring
