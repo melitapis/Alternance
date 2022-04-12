@@ -8,7 +8,7 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-import "components/transition.js"
+// import "components/transition.js"
 import { scrollDownWithChevron } from '../components/chevron_scroll';
 import { accordionItemHeaders } from '../components/accordion';
 
